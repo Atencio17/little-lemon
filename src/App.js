@@ -1,17 +1,17 @@
 import './App.css';
-import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Main from './components/Main';
-import Header from './components/Header';
+import Menu from './components/Menu';
+import Nav from './components/Nav';
 
 function App() {
   return (
-  <>
-  <Header/>
-  <Nav/>
-  <Footer/>
-  <Main/>
-  </>
+    <>
+      <Nav />
+      <Main />
+      <Menu />
+      <Footer />
+    </>
   );
 }
 
